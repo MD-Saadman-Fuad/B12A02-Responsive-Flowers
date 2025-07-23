@@ -19,8 +19,13 @@
 
 
 body{
-    margin: 0 150px;
-    width: 1440px;
+    margin: 0 30px;
+    /* width: 1440px; */
+
+}
+
+.mobileicon{
+    display: none;
 }
 
 nav{
@@ -47,5 +52,44 @@ nav{
 }
 
 .cart-btn{
-    color: #00000;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+/* Media query */
+
+@media screen and (max-width: 576px) {
+    body{
+    margin: 0 auto;
+    /* width: 576px; */
+
+}
+    .mobileicon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10px;
+    }
+    .mobileicon1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .btn{
+        display: none;
+    }
+    .cart-btn{
+        margin-right: 25px;
+    }
+
+    nav{
+        margin: 0 10px;
+    }
 }
