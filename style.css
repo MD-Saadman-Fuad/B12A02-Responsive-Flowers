@@ -66,9 +66,9 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 60px;
+  padding: 150px 60px 0 60px;
   /* background-color: #f8faff; */
-  gap: 40px;
+  gap: 60px;
   flex-wrap: wrap; /* for responsiveness */
 }
 
@@ -104,8 +104,64 @@ nav{
 
 
 
+/* Our plants section  */
+.our-plants{
+    margin-top: 60px 50px 0 50px;
+    
+}
+.our-plants-header{
+    text-align: center;
+}
+
+.our-plants-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.our-plants-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
 
 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
+    text-align: center;
+    gap: 30px;
+    margin: 0 160px;
+    margin-top: 60px;
+}
+.card{
+    text-align: center;
+    gap: 20px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+}
+
+.card-name{
+    font-size: 22px;
+    font-weight: 500;
+    color: #111111;
+}
+.card-price{
+    font-size: 22px;
+    font-weight: 700;
+    color: #111111;
+}
+
+/* .card{
+    text-align: center;
+} */
+.card-btn{
+    background-color: #E95A08;
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 
 
@@ -172,4 +228,19 @@ nav{
   .fresh-flower-description {
     max-width: 100%;
   }
+
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: none;
+    text-align: center;
+    gap: 5px;
+    padding-top: 10px;
+    margin: 0;
+    
+}
+.card{
+    width: 200px;
+    padding: 10px;
+}
 }
