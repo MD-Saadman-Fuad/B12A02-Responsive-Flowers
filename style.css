@@ -20,7 +20,9 @@
 
 body{
     margin: 0 30px;
-    /* width: 1440px; */
+    background-color: #ffffff;
+    overflow-x: hidden;
+
 
 }
 
@@ -29,6 +31,7 @@ body{
 }
 
 nav{
+    margin: 0 100px;
     padding-top: 20px;
     display: flex;
     align-items: center;
@@ -67,9 +70,8 @@ nav{
   justify-content: space-between;
   align-items: flex-end;
   padding: 150px 60px 0 60px;
-  /* background-color: #f8faff; */
   gap: 60px;
-  flex-wrap: wrap; /* for responsiveness */
+  flex-wrap: wrap; 
 }
 
 .fresh-flower-text {
@@ -106,7 +108,7 @@ nav{
 
 /* Our plants section  */
 .our-plants{
-    margin-top: 60px 50px 0 50px;
+    margin: 60px 50px 0 50px;
     
 }
 .our-plants-header{
@@ -114,13 +116,13 @@ nav{
 }
 
 .our-plants-title{
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
 }
 
 .our-plants-description{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 
@@ -130,8 +132,9 @@ nav{
     border: none;
     text-align: center;
     gap: 30px;
-    margin: 0 160px;
+    /* margin: 0 160px; */
     margin-top: 60px;
+    margin-left: 35px;
 }
 .card{
     text-align: center;
@@ -158,6 +161,7 @@ nav{
 .card-btn{
     background-color: #E95A08;
     width: 100%;
+    height: 6vh;
     color: #ffffff;
     font-size: 18px;
     font-weight: 600;
@@ -166,7 +170,7 @@ nav{
 
 /* Plant lover */
 .plant-lover{
-    margin: 80px;
+    margin: 120px 80px 80px 80px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
@@ -287,19 +291,11 @@ nav{
 
 
 
-
-
-
-
-
-
 /* colorful-bunch  */ 
 
 .colorful-bunch{
   margin: 0 -30px;
-  /* padding: 30px; */
   position: relative;
-  /* width: calc(100% - 60px); */
   height: 50vh;
   background-image: url(assets/news-letter-bg.png);
   background-repeat: no-repeat;
@@ -354,7 +350,6 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #f8faff;
   padding: 40px 60px;
   margin-top: 40px;
   flex-wrap: wrap;
@@ -388,7 +383,7 @@ nav{
 .footer-column {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .footer-column a {
@@ -469,7 +464,19 @@ nav{
   .fresh-flower-description {
     max-width: 100%;
   }
+/* our plants  */
+.our-plants{
+  margin: 0;
+  margin-top: 20px;
+}
 
+.our-plants-title, .latest-deal-title, .fresh-flower-title{
+    font-size: 24px;
+}
+.our-plants-description, .latest-deal-description, .fresh-flower-description{
+  margin: 5px;
+  font-size: 14px;
+}
   .cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -483,6 +490,16 @@ nav{
 .card{
     width: 200px;
     padding: 10px;
+    gap: 10px;
+}
+.card-name{
+    font-size: 16px;
+}
+.card-price{
+    font-size: 16px;
+}
+.card-btn{
+    font-size: 16px;
 }
 
 /* plant lover  */
@@ -575,14 +592,18 @@ nav{
 .footer {
     flex-direction: column;
     align-items: left;
-    
     text-align: left;
+    padding-left: 20px;
+    gap: 20px;
   }
 
   .footer-links {
     flex-direction: column;
     align-items: left;
-    gap: 10px;
+    gap: 20px;
+  }
+  .footer-column{
+    gap: 20px;
   }
 
   .footer-social {
