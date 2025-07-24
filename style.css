@@ -170,7 +170,8 @@ nav{
 
 /* Plant lover */
 .plant-lover{
-    margin: 120px 80px 80px 80px;
+    /* margin: 120px 80px 80px 80px; */
+    margin-top: 120px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
@@ -195,14 +196,26 @@ nav{
   height: auto;
   z-index: 1;
 }
+.plant-lover-text{
+  margin: 0;
+  text-align: left;
+  place-items: start;
+  margin-right: 4rem;
+}
+
 .plant-lover-title{
     font-size: 3.125rem;
     font-weight: 700;
+    text-align: left;
 }
 .plant-lover-description{
     font-size: 1.38rem;
     color: rgba(0, 0, 0, 0.5);
     padding-top: 25px;
+}
+
+ul li{
+  list-style-type: disc;
 }
 
 /* latest deals  */
@@ -508,14 +521,21 @@ nav{
     margin: 50px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    place-items: center;
+    place-items: start;
     gap: 10px;
 }
+
+.plant-lover-text{
+  margin-right: 1rem;
+}
+
+
 
 
 
 .plant-lover-title{
     font-size: 24px;
+    text-align: left;
 }
 .plant-lover-description{
     font-size: 14px;
