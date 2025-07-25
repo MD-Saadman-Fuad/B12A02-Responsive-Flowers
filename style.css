@@ -21,7 +21,7 @@
 body{
     margin: 0 30px;
     background-color: #ffffff;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
 
 }
@@ -507,7 +507,8 @@ ul li{
     
 }
 .card{
-    width: 200px;
+  margin: auto;
+    width: 12rem;
     padding: 10px;
     gap: 10px;
 }
