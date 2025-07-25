@@ -132,14 +132,14 @@ nav{
     border: none;
     text-align: center;
     gap: 30px;
-    /* margin: 0 160px; */
+    margin: 0;
     margin-top: 60px;
-    margin-left: 35px;
+    margin-left: 1rem;
 }
 .card{
     text-align: center;
     gap: 20px;
-    width: 300px;
+    width: 18rem;
     display: grid;
     place-items: center;
 }
